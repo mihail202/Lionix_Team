@@ -79,3 +79,8 @@ body{
      margin-left: 350px;
 
     }
+    @media only screen and (max-width: 1200px) {
+        .baza {
+            width: 800px;
+        }
+    }
