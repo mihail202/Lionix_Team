@@ -1,6 +1,6 @@
-/*html, * {
+html, * {
            outline: 1px solid orange;
-}*/
+}
 body{
     margin: 0;
       padding: 0;
@@ -75,12 +75,33 @@ body{
             transition: height 0.25s ease;
         }
     }
-    img {
+    /*img {
      margin-left: 350px;
 
-    }
+    }*/
     @media only screen and (max-width: 1200px) {
         .baza {
             width: 800px;
         }
+        .photo{
+             width: 700px;
+             margin-right: 50px;
+             
+             
+        }
     }
+    @media only screen and (max-width: 800) {
+        .baza {
+            width: 600px;
+        }
+    }
+    img {
+        width: 30%;
+        height: 300px;
+        margin-left: 350px;
+    }
+   /* @media only screen and (max-width: 480px) { 
+        img { 
+        width: 100%; 
+        } 
+        }
