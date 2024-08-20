@@ -107,6 +107,10 @@ body{
         }
         */
         .niz {
+            a {
+text-decoration: none   ;
+
+            }
       img{
         width: 100px;
         height: 100px;
@@ -114,5 +118,5 @@ body{
         padding: 10px;
       }
 text-align: center;
-margin-left: 22px;
+margin-left: 0px;
         }
